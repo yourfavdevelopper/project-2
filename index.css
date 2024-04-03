@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+img{
+    width: 80px;
+    height: 80px;
+    margin-top: 1%;
+    margin-left: -1%;
+}
+body{
+    background-color: rgb(173, 216, 255);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height:100vh;
+    background: linear-gradient(to right,rgb(173, 216, 255), rgb(70,130,180))
+
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(17, 143, 111);
+    
+}
+.menu ul li{
+    height: 25px;
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(150, 200, 230);
+}
+.menu ul li:hover{
+    background: rgb(170, 120, 200);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.menu .fa
+{
+    margin-right: 8px;
+}
+
+    
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top:40%;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    z-index: -1;
+    font-weight: 400;
+}
+.title{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+
+}
+.content p{
+    font-family: sans-serif;
+    font-weight: 500px;
+    line-height: 25px;
+    font-size: 25px;
+    margin:20px auto;
+    color:rgb(114, 120, 199);
+    
+    
+}
+a{
+    color: rgb(150, 200, 230);
+    text-decoration: none;
+    }
+a:hover{
+    color:black;
+    
+}
+.title {
+    animation: fadeInOut 5s ease-in-out ;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.copyright{
+background-color:rgba(0, 0, 0, 0.585);
+left: 0;
+margin-top: 38.7%;
+width: 100%;
+color: rgb(150, 200, 230);
+text-align: center;
+}
+  
